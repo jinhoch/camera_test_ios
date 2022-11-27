@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.cameraexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:22:3-24:30
+12        android:name="android.hardware.camera"
+12-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:23:5-43
+13        android:required="true" />
+13-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:24:5-28
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:26:3-64
+15-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:26:20-62
+16    <uses-permission android:name="android.permission.FLASHLIGHT" />
+16-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:27:3-66
+16-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:27:20-64
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->[:manual_camera] D:\plugins\packages\camera\camera\example\build\manual_camera\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-65
+17-->[:manual_camera] D:\plugins\packages\camera\camera\example\build\manual_camera\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-62
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->[:manual_camera] D:\plugins\packages\camera\camera\example\build\manual_camera\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-71
+18-->[:manual_camera] D:\plugins\packages\camera\camera\example\build\manual_camera\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-68
+19
+20    <application
+20-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:4:3-20:17
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] C:\Users\jinho\.gradle\caches\transforms-3\cdc8381483b8f93e69df15ad3eb1e86a\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:5:5-39
+24        android:label="camera_example" >
+24-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:6:5-35
+25        <activity
+25-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:7:5-18:16
+26            android:name="io.flutter.embedding.android.FlutterActivity"
+26-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:11:7-66
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection"
+27-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:8:7-100
+28            android:hardwareAccelerated="true"
+28-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:9:7-41
+29            android:launchMode="singleTop"
+29-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:10:7-37
+30            android:theme="@style/LaunchTheme"
+30-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:12:7-41
+31            android:windowSoftInputMode="adjustResize" >
+31-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:13:7-49
+32            <intent-filter>
+32-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:14:7-17:23
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:15:9-60
+33-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:15:17-58
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:16:9-68
+35-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:16:19-66
+36            </intent-filter>
+37        </activity>
+38
+39        <meta-data
+39-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:19:5-67
+40            android:name="flutterEmbedding"
+40-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:19:16-47
+41            android:value="2" />
+41-->D:\plugins\packages\camera\camera\example\android\app\src\main\AndroidManifest.xml:19:48-65
+42
+43        <uses-library
+43-->[androidx.window:window:1.0.0-beta04] C:\Users\jinho\.gradle\caches\transforms-3\bb9a53f8c4dc071c681fa071739dc70b\transformed\window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+44            android:name="androidx.window.extensions"
+44-->[androidx.window:window:1.0.0-beta04] C:\Users\jinho\.gradle\caches\transforms-3\bb9a53f8c4dc071c681fa071739dc70b\transformed\window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+45            android:required="false" />
+45-->[androidx.window:window:1.0.0-beta04] C:\Users\jinho\.gradle\caches\transforms-3\bb9a53f8c4dc071c681fa071739dc70b\transformed\window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+46        <uses-library
+46-->[androidx.window:window:1.0.0-beta04] C:\Users\jinho\.gradle\caches\transforms-3\bb9a53f8c4dc071c681fa071739dc70b\transformed\window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+47            android:name="androidx.window.sidecar"
+47-->[androidx.window:window:1.0.0-beta04] C:\Users\jinho\.gradle\caches\transforms-3\bb9a53f8c4dc071c681fa071739dc70b\transformed\window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+48            android:required="false" />
+48-->[androidx.window:window:1.0.0-beta04] C:\Users\jinho\.gradle\caches\transforms-3\bb9a53f8c4dc071c681fa071739dc70b\transformed\window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+49    </application>
+50
+51</manifest>

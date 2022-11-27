@@ -1,0 +1,27 @@
+com/afonsoraposo/camera/CameraUtils.java
+ com.afonsoraposo.camera.CameraUtils
+ com.afonsoraposo.camera.CameraUtils$1
+ com.afonsoraposo.camera.CameraUtils$CompareSizesByArea
+com/afonsoraposo/camera/CameraPlugin.java
+ com.afonsoraposo.camera.CameraPlugin
+com/afonsoraposo/camera/CameraPermissions.java
+ com.afonsoraposo.camera.CameraPermissions
+ com.afonsoraposo.camera.CameraPermissions$CameraRequestPermissionsListener
+ com.afonsoraposo.camera.CameraPermissions$PermissionsRegistry
+ com.afonsoraposo.camera.CameraPermissions$ResultCallback
+com/afonsoraposo/camera/DartMessenger.java
+ com.afonsoraposo.camera.DartMessenger
+ com.afonsoraposo.camera.DartMessenger$1
+ com.afonsoraposo.camera.DartMessenger$EventType
+com/afonsoraposo/camera/MethodCallHandlerImpl.java
+ com.afonsoraposo.camera.MethodCallHandlerImpl
+com/afonsoraposo/camera/BuildConfig.java
+ com.afonsoraposo.camera.BuildConfig
+com/afonsoraposo/camera/Camera.java
+ com.afonsoraposo.camera.Camera
+ com.afonsoraposo.camera.Camera$1
+ com.afonsoraposo.camera.Camera$2
+ com.afonsoraposo.camera.Camera$3
+ com.afonsoraposo.camera.Camera$4
+ com.afonsoraposo.camera.Camera$5
+ com.afonsoraposo.camera.Camera$ResolutionPreset

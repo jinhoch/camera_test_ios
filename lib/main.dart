@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:camera_test_next/screen/HomeScreen.dart';
+import 'package:camera_example/screen/HomeScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:manual_camera/camera.dart';
 

@@ -1,4 +1,4 @@
-import 'package:camera_test_next/main.dart';
+import 'package:camera_example/main.dart';
 import 'package:flutter/material.dart';
 import 'package:manual_camera/camera.dart';
 
